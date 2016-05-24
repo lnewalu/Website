@@ -1,0 +1,113 @@
+/*Gerneral*/
+body {padding-bottom:10px;}
+.navbar-wrapper {margin-top:0px; }
+.navbar-brand {padding:15px 15px 15px 0px;}
+.navbar-header h4 {color:#fff;padding-top:5px;}
+.back-to-top {color:#c1c1c1}
+.featurette-divider.ftr {margin:40px 0px 20px;}
+.ftr {text-align: center; color:#c1c1c1}
+li {list-style: none;}
+
+.container.page {padding-top:60px;max-width:750px;}
+
+
+/******Home Page carousel area******/
+.carousel {height: 325px;}
+.carousel-caption {bottom:25px}
+.carousel .item {height:325px}
+.carousel-control .icon-prev, 
+.carousel-control .icon-next, 
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right {margin-top:0px;}
+
+.carousel .item.one{background:#123456}
+.carousel .item.two{background:#678901}
+.carousel .item.three{background:#098765}
+
+.hm-aboutme,
+.hm-contactme {padding:20px 0px;}
+
+/*fix for navigation bar in large views*/
+@media (min-width: 768px){
+    .container {width:100%;}
+    .navbar-wrapper .container {background:#080808;}
+    .navbar-wrapper .navbar {border-radius: 0px;width:750px;margin: 0px auto;}  
+    .navbar-nav {float: right;}
+    
+}
+
+/*Marketing Section*/
+@media (min-width: 1200px){
+    .container.marketing {width:780px}
+    p.mrk-sub-hdr{height: 50px;}
+}
+
+@media (min-width: 768px){
+    .container.marketing .row .col-lg-4 {width: 33.3333%;float:left;}
+}
+
+/******Website examples page******/
+.container.websites .row .col-lg-4 {text-align: center;}
+.container.websites .row .col-lg-12 h1 {color:#678901;}
+.container.websites .row .col-lg-12 h4 {padding:10px 0px 5px 0px;border-bottom:1px solid #c1c1c1;color:#678901;}
+.container.websites .row .col-lg-12 h5 {font-weight: 600;}
+.container.websites .row .col-lg-4 img {width:150px;height:150px;border:1px solid #c1c1c1;margin:10px auto;}
+
+.container.websites .websitetbimg {width:175px;text-align: center;border:1px solid #c1c1c1;margin:10px;float:left;}
+.container.websites .websitetbimg img {border:1px solid #c1c1c1;margin-top:10px;}
+
+/*.container.websites.detail img {width:100%;}*/
+
+@media (min-width: 768px){
+    .container.websites .row .col-lg-4 {width: 33.3333%;float:left;}
+}
+@media (max-width: 768px){
+    .container.websites .row .col-lg-12 h4 {text-align: center;border-bottom:1px solid #c1c1c1;padding:10px 0px;color:#678901;}
+}
+@media (max-width: 1050px){
+        /*.container.websites .websitetbimg {margin:10px auto;float:none;}     */ 
+}
+
+
+/******Emails examples page******/
+.container.emails .row .col-lg-4 {text-align: center;}
+.container.emails .row .col-lg-12 h1 {color:#098765;}
+.container.emails .row .col-lg-12 h4 {padding:10px 0px 5px 0px;border-bottom:1px solid #c1c1c1;color:#098765;}
+.container.emails .row .col-lg-12 h5 {font-weight: 600;}
+.container.emails .row .col-lg-4 img {width:150px;height:150px;border:1px solid #c1c1c1;margin:10px auto;}
+
+.container.emails .emailtbimg {width:175px;text-align: center;border:1px solid #c1c1c1;margin:10px;float:left;}
+.container.emails .emailtbimg img {border:1px solid #c1c1c1;margin-top:10px;}
+
+@media (min-width: 768px){
+    .container.emails .row .col-lg-4 {width: 33.3333%;float:left;}
+}
+@media (max-width: 768px){
+    .container.emails .row .col-lg-12 h4 {text-align: center;border-bottom:1px solid #c1c1c1;padding:10px 0px;color:#098765;}
+    
+}
+@media (max-width: 419px){
+        .container.emails .emailtbimg {margin:10px auto;float:none;}
+        .container.emails.detail img {width:100%;}
+}
+
+/******Print examples page******/
+.container.print .row .col-lg-4 {text-align: center;}
+.container.print .row .col-lg-12 h1 {color:#123456;}
+.container.print .row .col-lg-12 h4 {padding:10px 0px 5px 0px;border-bottom:1px solid #c1c1c1;color:#123456;}
+.container.print .row .col-lg-12 h5 {font-weight: 600;}
+.container.print .row .col-lg-4 img {width:150px;height:150px;border:1px solid #c1c1c1;margin:10px auto;}
+
+.container.print .printtbimg {width:175px;text-align: center;border:1px solid #c1c1c1;margin:10px;float:left;}
+.container.print .printtbimg img {border:1px solid #c1c1c1;margin-top:10px;}
+
+@media (min-width: 768px){
+    .container.print .row .col-lg-4 {width: 33.3333%;float:left;}
+}
+@media (max-width: 768px){
+    .container.print .row .col-lg-12 h4 {text-align: center;border-bottom:1px solid #c1c1c1;padding:10px 0px;}
+}
+
+/******Fun Times Page******/
+#funtimesbkg {position: fixed;top:-50%;left:-50%;width:200%;height:200%}
+#funtimesbkg img {position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;min-width: 50%;min-height: 50%;}
