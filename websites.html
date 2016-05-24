@@ -1,0 +1,89 @@
+
+<div class="container page websites">
+    <div class="row">
+        <div class="col-lg-12">
+
+               <h1>Website Designs</h1>
+               <p>Now a days it seems like everyone has a website, and it has become a must in daily business.  If you don’t have one, you are missing a very important part of your business.  Below are some sample websites that I have create from concept, implemented into production and supported.</p>
+        </div>
+        
+    </div>
+    <!--<div class="row" >
+        <div class="col-lg-12">
+           <h4>American Express</h4>
+        </div>
+        <div class="col-lg-4">
+            Web sample 1
+        </div>
+        <div class="col-lg-4">
+            Web sample 
+        </div>
+        <div class="col-lg-4">
+            Web sample 
+        </div>
+         <div class="col-lg-4">
+            Web sample 
+        </div>
+    </div> //-->   
+    
+    <section class="row" ng-controller="PrintWebController">  
+        <div class="col-lg-12">
+           <h4>123Print.com Website Concepts</h4>
+                <div class="websitetbimg" ng-repeat="item in PrintWebcampaign"> 
+                <a href="#/printwebdetails/{{PrintWebcampaign.indexOf(item)}}">
+                <img ng-src="content/images/web-img/{{item.printwebimgname}}.jpg" alt="Photo of {{item.printwebname}}">
+                <div>
+                    <h5>{{item.printwebname}}</h5>
+                    <h6>{{item.printwebdescription}}</h6>
+                </div>
+                </a>
+            </div>
+        </div>    
+    </section>
+    
+    <section class="row" ng-controller="HSNWebController">  
+        <div class="col-lg-12">
+           <h4>HSN Website Concepts</h4>
+                <div class="websitetbimg" ng-repeat="item in HSNWebcampaign"> 
+                <a href="#/hsnwebdetails/{{HSNWebcampaign.indexOf(item)}}">
+                <img ng-src="content/images/web-img/{{item.hsnwebimgname}}.jpg" alt="Photo of {{item.hsnwebname}}">
+                <div>
+                    <h5>{{item.hsnwebname}}</h5>
+                    <h6>{{item.hsnwebdescription}}</h6>
+                </div>
+                </a>
+            </div>
+        </div>    
+    </section>
+    
+    <section class="row" ng-controller="INTWebController">  
+        <div class="col-lg-12">
+           <h4>Intelitech Website Concepts</h4>
+                <div class="websitetbimg" ng-repeat="item in INTWebcampaign"> 
+                <a href="#/intwebdetails/{{INTWebcampaign.indexOf(item)}}">
+                <img ng-src="content/images/web-img/{{item.intwebimgname}}.jpg" alt="Photo of {{item.intwebname}}">
+                <div>
+                    <h5>{{item.intwebname}}</h5>
+                    <h6>{{item.intwebdescription}}</h6>
+                </div>
+                </a>
+            </div>
+        </div>    
+    </section>
+    
+    <section class="row" ng-controller="MisWebController">  
+        <div class="col-lg-12">
+            <h4>Miscellaneous Website Concepts</h4>
+                <div class="websitetbimg" ng-repeat="item in MisWebcampaign"> 
+                <a href="#/miswebdetails/{{MisWebcampaign.indexOf(item)}}">
+                <img ng-src="content/images/web-img/{{item.miswebimgname}}.jpg" alt="Photo of {{item.miswebname}}">
+                <div>
+                    <h5>{{item.miswebname}}</h5>
+                    <h6>{{item.miswebdescription}}</h6>
+                </div>
+                </a>
+            </div>
+        </div>    
+    </section>
+    
+</div>
